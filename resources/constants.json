@@ -1,0 +1,41 @@
+h {
+	"name" : "Planck's Constant",
+	"value" : 6.626e-34,
+	"units" : ["J","s"],
+	"units^" : []
+}
+
+c {
+	"name" : "Speed of Light",
+	"value" : 2.998e8,
+	"units" : ["m"],
+	"units^" : ["s"]
+}
+
+N_a {
+	"name" : "Avogadro's Number",
+	"value" : 6.022e23,
+	"units" : [],
+	"units^" : ["mol"]
+}
+
+e {
+	"name" : "Electron Charge",
+	"value" : -1.602e-19,
+	"units" : ["C"],
+	"units^" : []
+}
+
+R {
+	"name" : "Universal Gas Constant",
+	"value" : 8.206e-2,
+	"units" : ["L","atm"],
+	"units^" : ["mol","K"]
+}
+
+F {
+	"name" : "Faraday's Constant",
+	"value" : 9.6485e4,
+	"units" : ["C"],
+	"units^" : ["mol e"]
+}
