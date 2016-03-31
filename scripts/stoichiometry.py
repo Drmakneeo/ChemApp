@@ -2,6 +2,8 @@ import pint
 ureg = pint.UnitRegistry()
 
 import json
+import numpy as np
+import scipy
 
 def molmass(a):
 	with open('../resources/element_data.json') as data_file:
@@ -16,3 +18,12 @@ def molmass(a):
 				break
 	mm = mm * ureg.gram / ureg.mol
 	return mm
+
+def baleq(a,b):
+
+
+
+	
+	reactants = np.array([reactant.values() for reactant in a]).T
+	products  = np.array([product.values() for product in b]).T
+	print np.concatenate((reactants, products), axis=1)
