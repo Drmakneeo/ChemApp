@@ -20,10 +20,6 @@ def molmass(a):
 	return mm
 
 def baleq(a,b):
-
-
-
-	
 	reactants = np.array([reactant.values() for reactant in a]).T
 	products  = np.array([product.values() for product in b]).T
 	print np.concatenate((reactants, products), axis=1)
